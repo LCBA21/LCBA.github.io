@@ -1,2 +1,0 @@
-# Wireframe_Prototype
-Wireframe_Prototype
