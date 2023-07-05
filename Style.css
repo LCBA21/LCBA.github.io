@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #00471B; /* Set the background color to #00471B */
+}
+
+nav {
+  background-color: #333;
+}
+
+.text
+{
+    color: #fff;
+}
+
+.text_center
+{
+    text-align: center;
+    color: #fff;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 15px 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.buttons{
+    color: #070707;
+    text-decoration: none;
+        /*Time taken to change havor colour */
+    transition: color 0.3s ease;
+    width: 150px;
+    height: 20px;
+    /*Make button round around the edges */
+    border-radius: 8px;
+}
+
+
+.buttons:hover
+{
+    color: #070707;
+    background-color: #00471B;
+}
+nav ul li a:hover {
+  color: #fff;
+  background-color: #00471B;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  padding: 1px 200px;
+
+
+}
+
+.text-container{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+ /*Moving attribute  */
+    padding: 50px 300px;
+    color: #fff;
+
+}
+
+
+.Font_Family{
+    font-family: 'Inter',sans-serif;
+}
+
+
+.column {
+    float: left;
+    width: 10.33%;
+    padding-top: 550px;
+    padding-right: 40px;
+    padding-left: 250px;
+
+}
+
+.column_cards {
+  float: left;
+  width: 10.33%;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-left: 250px;
+
+}
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
