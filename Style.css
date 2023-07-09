@@ -4,16 +4,15 @@ body {
   background-color: #00471B; /* Set the background color to #00471B */
 }
 
-nav {
-  background-color: #333;
-}
 
+/*css  for font and colour of text */
 .text
 {
     color: #fff;
     font-family: 'Inter',sans-serif;
 }
 
+/*css for centering text and colour */
 .text_center
 {
     text-align: center;
@@ -21,23 +20,6 @@ nav {
 }
 
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  display: block;
-  color: #fff;
-  padding: 15px 20px;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
 
 .buttons{
     color: #070707;
@@ -50,11 +32,13 @@ nav ul li a {
     
 }
 
+/*using border radius to make the button edges more smooth */
 .round{
 
   border-radius: 100px;
   width: 10px;
   height: 10px;
+  margin-left: 100px;
 }
 
 .buttons:hover
@@ -124,6 +108,7 @@ nav ul li a:hover {
 text-align: center;
 justify-content: center;
 }
+/*css for featured players section  */
 .column_cards2 {
   float: left;
   width: 10.33%;
@@ -134,7 +119,7 @@ justify-content: center;
 justify-content: center;
 
 }
-
+/*css for featured players section  */
 
 
 .column_cards3 {
@@ -169,7 +154,7 @@ justify-content: center;
     padding: 10px; 
 
   }
-
+/*css for outer div to flex other elements*/
   .main-testimony {
     display: flex;
     flex-direction: row;
@@ -181,6 +166,8 @@ justify-content: center;
     text-align: center;
     color: #fff;
   }
+
+  /*css for inner div to flex other elements*/
 
   .testimony-container {
     display: flex;
@@ -218,6 +205,7 @@ justify-content: center;
 
   }
 
+  /* Social media icons*/
   .fa {
     padding: 20px;
     font-size: 30px;
@@ -273,6 +261,7 @@ justify-content: center;
     line-height: 75px;
     font-size: 30px;
   }
+  /* css for nav bar */
 
   .container {
     display: flex;
