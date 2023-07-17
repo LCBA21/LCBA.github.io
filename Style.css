@@ -5,20 +5,58 @@ body {
 }
 
 
-/*css  for font and colour of text */
 .text
 {
     color: #fff;
-    font-family: 'Inter',sans-serif;
 }
 
-/*css for centering text and colour */
 .text_center
 {
     text-align: center;
     color: #fff;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.container nav {
+  margin-left: 20px; /* adjust the margin as needed */
+  padding-left: 900px;
+}
+
+.container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.container li {
+  margin-right: 10px; /* adjust the margin as needed */
+}
+
+.container li:last-child {
+  margin-right: 0;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.buttonsNav{
+  color: #070707;
+  text-decoration: none;
+      /*Time taken to change havor colour */
+  transition: color 0.3s ease;
+  width: 120px;
+  height: 20px;
+  /*Make button round around the edges */
+  border-radius: 8px;
+  margin-left: 20px;
+}
 
 
 .buttons{
@@ -29,16 +67,14 @@ body {
     width: 150px;
     height: 30px;
     /*Make button round around the edges */
+    border-radius: 8px;
     
 }
+.NavbarTop{
+color: #070707;
+border: #070707;
 
-/*using border radius to make the button edges more smooth */
-.round{
 
-  border-radius: 100px;
-  width: 10px;
-  height: 10px;
-  margin-left: 100px;
 }
 
 .buttons:hover
@@ -80,15 +116,14 @@ nav ul li a:hover {
 
 .Font_Family{
     font-family: 'Inter',sans-serif;
-   
 }
 
 .div_Featured_Cards{
   float: left;
   padding: 10px; 
-  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-  
+  justify-content: space-around;
 
 }
 
@@ -108,7 +143,6 @@ nav ul li a:hover {
 text-align: center;
 justify-content: center;
 }
-/*css for featured players section  */
 .column_cards2 {
   float: left;
   width: 10.33%;
@@ -119,7 +153,7 @@ justify-content: center;
 justify-content: center;
 
 }
-/*css for featured players section  */
+
 
 
 .column_cards3 {
@@ -154,7 +188,7 @@ justify-content: center;
     padding: 10px; 
 
   }
-/*css for outer div to flex other elements*/
+
   .main-testimony {
     display: flex;
     flex-direction: row;
@@ -164,10 +198,7 @@ justify-content: center;
   .testimony-text{
     padding-top: 50px;
     text-align: center;
-    color: #fff;
   }
-
-  /*css for inner div to flex other elements*/
 
   .testimony-container {
     display: flex;
@@ -186,12 +217,27 @@ justify-content: center;
     display: flex;
     flex-direction: column;
 
+  .logo_position{
+    display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+    }
+
+    .nav-position{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+    }
+
 
   }
 
 .button_flex{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
 
 }
 
@@ -205,7 +251,6 @@ justify-content: center;
 
   }
 
-  /* Social media icons*/
   .fa {
     padding: 20px;
     font-size: 30px;
@@ -220,24 +265,36 @@ justify-content: center;
   }
 
   .fa-instagram {
-    background: #125688;
+    background: #00471B;
     color: white;
-    width: 50px;
-    height: 50px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
   }
 
   .fa-facebook {
-    background: #3B5998;
+    background: #00471B;
     color: white;
-    width: 50px;
-    height: 50px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
   }
 
+.footer_Container{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
   .fa-youtube {
-    background: #bb0000;
+    background: #00471B;
     color: white;
-    width: 50px;
-    height: 50px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+
   }
   
 
@@ -261,60 +318,3 @@ justify-content: center;
     line-height: 75px;
     font-size: 30px;
   }
-  /* css for nav bar */
-
-  .container {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 20px;
-  }
-  
-  .element {
-    flex: 1;
-  }
-  
-  .navigation {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: snow;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-right: 10px;
-  }
-  
-  .navigation li {
-    margin: 0 10px;
-  }
-  
-  .navigation li a {
-    text-decoration: none;
-    color: #333;
-    padding: 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .navigation li a:hover {
-    color: white;
-    background-color: #00471B;
-  }
-  
-  .element img {
-    background: none;
-    margin-left: 300px; 
-    margin-top: 20px;
-  }
-  
-  .element button {
-    margin-top: 12px;
-    margin-left: 30px;
-  }
-  
-  .element ~ .element {
-    margin-top: 20px;
-  }
-  
